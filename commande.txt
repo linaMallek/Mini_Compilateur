@@ -1,0 +1,7 @@
+flex nom.l
+bison -d nom.y
+gcc -o mycompiler lex.yy.c syntax.tab.c -lfl -ly
+type ok.txt |.\mycompiler.exe
+
+#conflits 
+bison -v parser.y
