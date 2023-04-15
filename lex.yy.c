@@ -471,8 +471,8 @@ char *yytext;
 #include<stdlib.h>
 #include "syntax.tab.h"
 #include "ts.h"
-extern nb_lignes;
-extern col;
+extern int nb_lignes;
+extern int col;
 extern YYSTYPE yylval ;
 #line 477 "lex.yy.c"
 /*definition des entités lexical*/ 
